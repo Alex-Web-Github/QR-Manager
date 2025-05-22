@@ -1,0 +1,112 @@
+# Copyright (C) 2025 Alexandre Foulc
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: QR Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/QR-Manager\n"
+"Last-Translator: Alexandre FOULC <alexandre.foulc@gmail.com>\n"
+"Language-Team: English <translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-22T09:50:06+00:00\n"
+"PO-Revision-Date: 2025-05-22 12:10+0200\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: qr-manager\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+msgid "QR Manager"
+msgstr "QR Manager"
+
+#. Plugin URI of the plugin
+msgid "https://example.com/qr-manager"
+msgstr "https://example.com/qr-manager"
+
+#. Description of the plugin
+msgid "Un plugin WordPress pour créer des QR codes, rediriger vers une URL cible, et suivre les statistiques de flash."
+msgstr "A WordPress plugin to create QR codes, redirect to a target URL, and track scan statistics."
+
+#. Author of the plugin
+msgid "Alexandre Foulc"
+msgstr "Alexandre Foulc"
+
+#. Author URI of the plugin
+msgid "https://example.com"
+msgstr "https://example.com"
+
+msgid "Vous n’avez pas la permission d’accéder à cette page."
+msgstr "You do not have permission to access this page."
+
+msgid "Ajouter un QR Code"
+msgstr "Add a QR Code"
+
+msgid "Voir les Statistiques"
+msgstr "View Statistics"
+
+msgid "Nom"
+msgstr "Name"
+
+msgid "Slug (URL courte)"
+msgstr "Slug (Short URL)"
+
+msgid "URL cible"
+msgstr "Target URL"
+
+msgid "Ajouter"
+msgstr "Add"
+
+msgid "QR Codes existants"
+msgstr "Existing QR Codes"
+
+msgid "Slug"
+msgstr "Slug"
+
+msgid "QR PNG"
+msgstr "QR PNG"
+
+msgid "QR SVG"
+msgstr "QR SVG"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "Supprimer"
+msgstr "Delete"
+
+msgid "Voir QR Code"
+msgstr "View QR Code"
+
+msgid "Statistiques des Flashs"
+msgstr "Scan Statistics"
+
+msgid "Nom du QR Code"
+msgstr "QR Code Name"
+
+msgid "Nombre de flashs"
+msgstr "Number of Scans"
+
+msgid "Ce slug est déjà utilisé."
+msgstr "This slug is already in use."
+
+msgid "QR Code PNG et SVG générés avec succès."
+msgstr "QR Code PNG and SVG successfully generated."
+
+msgid "Erreur lors de la génération :"
+msgstr "Error during generation:"
+
+msgid "Tous les champs sont obligatoires."
+msgstr "All fields are required."
+
+msgid "Le slug ne doit pas dépasser 100 caractères."
+msgstr "The slug must not exceed 100 characters."
+
+msgid "URL cible invalide."
+msgstr "Invalid target URL."
+
+msgid "QR Code introuvable."
+msgstr "QR Code not found."
+
+msgid "Redirection vers un domaine non autorisé."
+msgstr "Redirection to an unauthorized domain."

@@ -1,0 +1,142 @@
+# Copyright (C) 2025 Alexandre Foulc
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: QR Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/QR-Manager\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-22T09:50:06+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: qr-manager\n"
+
+#. Plugin Name of the plugin
+#: qr-manager.php
+#: includes/admin.php:58
+msgid "QR Manager"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: qr-manager.php
+msgid "https://example.com/qr-manager"
+msgstr ""
+
+#. Description of the plugin
+#: qr-manager.php
+msgid "Un plugin WordPress pour créer des QR codes, rediriger vers une URL cible, et suivre les statistiques de flash."
+msgstr ""
+
+#. Author of the plugin
+#: qr-manager.php
+msgid "Alexandre Foulc"
+msgstr ""
+
+#. Author URI of the plugin
+#: qr-manager.php
+msgid "https://example.com"
+msgstr ""
+
+#: includes/admin.php:33
+msgid "Vous n’avez pas la permission d’accéder à cette page."
+msgstr ""
+
+#: includes/admin.php:61
+msgid "Ajouter un QR Code"
+msgstr ""
+
+#: includes/admin.php:62
+msgid "Voir les Statistiques"
+msgstr ""
+
+#: includes/admin.php:72
+#: includes/admin.php:92
+msgid "Nom"
+msgstr ""
+
+#: includes/admin.php:76
+msgid "Slug (URL courte)"
+msgstr ""
+
+#: includes/admin.php:80
+msgid "URL cible"
+msgstr ""
+
+#: includes/admin.php:85
+msgid "Ajouter"
+msgstr ""
+
+#: includes/admin.php:88
+msgid "QR Codes existants"
+msgstr ""
+
+#: includes/admin.php:93
+msgid "Slug"
+msgstr ""
+
+#: includes/admin.php:94
+msgid "QR PNG"
+msgstr ""
+
+#: includes/admin.php:95
+msgid "QR SVG"
+msgstr ""
+
+#: includes/admin.php:96
+msgid "Actions"
+msgstr ""
+
+#: includes/admin.php:109
+msgid "Supprimer"
+msgstr ""
+
+#: includes/admin.php:111
+msgid "Voir QR Code"
+msgstr ""
+
+#: includes/admin.php:120
+msgid "Statistiques des Flashs"
+msgstr ""
+
+#: includes/admin.php:124
+msgid "Nom du QR Code"
+msgstr ""
+
+#: includes/admin.php:125
+msgid "Nombre de flashs"
+msgstr ""
+
+#: includes/admin.php:168
+msgid "Ce slug est déjà utilisé."
+msgstr ""
+
+#: includes/admin.php:235
+msgid "QR Code PNG et SVG générés avec succès."
+msgstr ""
+
+#: includes/admin.php:237
+msgid "Erreur lors de la génération :"
+msgstr ""
+
+#: includes/admin.php:246
+msgid "Tous les champs sont obligatoires."
+msgstr ""
+
+#: includes/admin.php:248
+msgid "Le slug ne doit pas dépasser 100 caractères."
+msgstr ""
+
+#: includes/admin.php:250
+msgid "URL cible invalide."
+msgstr ""
+
+#: includes/redirect.php:48
+msgid "QR Code introuvable."
+msgstr ""
+
+#: includes/redirect.php:54
+msgid "Redirection vers un domaine non autorisé."
+msgstr ""

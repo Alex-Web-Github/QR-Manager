@@ -22,6 +22,17 @@ if (!defined('ABSPATH')) {
 define('QR_MANAGER_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('QR_MANAGER_PLUGIN_PATH', plugin_dir_path(__FILE__));
 
+// Charger les fichiers de langue
+function qr_manager_load_textdomain()
+{
+  load_plugin_textdomain(
+    'qr-manager',
+    false,
+    dirname(plugin_basename(__FILE__)) . '/languages/'
+  );
+}
+add_action('plugins_loaded', 'qr_manager_load_textdomain');
+
 // Inclure la fonction d'installation (création des tables)
 require_once QR_MANAGER_PLUGIN_PATH . 'includes/install.php';
 register_activation_hook(__FILE__, 'qr_manager_install');

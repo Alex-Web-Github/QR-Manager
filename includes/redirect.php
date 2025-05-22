@@ -45,13 +45,13 @@ function qr_manager_handle_redirect()
   // Recherche du QR Code correspondant au slug
   $qr = $wpdb->get_row($wpdb->prepare("SELECT * FROM $table_qr WHERE slug = %s", $slug));
   if (!$qr) {
-    wp_die(__('QR Code introuvable.', 'qr-manager'));
+    wp_die(esc_html__('QR Code introuvable.', 'qr-manager'));
   }
 
   // Vérifie la sécurité de l'URL cible
   $target_url = qr_manager_validate_target_url($qr->target_url);
   if (!$target_url) {
-    wp_die(__('Redirection vers un domaine non autorisé.', 'qr-manager'));
+    wp_die(esc_html__('Redirection vers un domaine non autorisé.', 'qr-manager'));
   }
 
   // Enregistre le scan dans la base de données

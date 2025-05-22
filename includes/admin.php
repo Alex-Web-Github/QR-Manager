@@ -89,11 +89,11 @@ function qr_manager_admin_page()
       <table class="widefat striped">
         <thead>
           <tr>
-            <th>Nom</th>
-            <th>Slug</th>
-            <th>QR PNG</th>
-            <th>QR SVG</th>
-            <th>Actions</th>
+            <th><?php esc_html_e('Nom', 'qr-manager'); ?></th>
+            <th><?php esc_html_e('Slug', 'qr-manager'); ?></th>
+            <th><?php esc_html_e('QR PNG', 'qr-manager'); ?></th>
+            <th><?php esc_html_e('QR SVG', 'qr-manager'); ?></th>
+            <th><?php esc_html_e('Actions', 'qr-manager'); ?></th>
           </tr>
         </thead>
         <tbody>
@@ -106,9 +106,9 @@ function qr_manager_admin_page()
               <td>
                 <form method="post" style="display:inline-block;">
                   <input type="hidden" name="delete_qr_id" value="<?php echo intval($qr->id); ?>">
-                  <?php submit_button('SUPPRIMER', 'delete', '', false); ?>
+                  <?php submit_button(__('Supprimer', 'qr-manager'), 'delete', '', false); ?>
                 </form>
-                <a class="button" href="<?php echo esc_url(home_url('/qr/' . $qr->slug)); ?>" target="_blank">Voir QR Code</a>
+                <a class="button" href="<?php echo esc_url(home_url('/qr/' . $qr->slug)); ?>" target="_blank"><?php esc_html_e('Voir QR Code', 'qr-manager'); ?></a>
               </td>
             </tr>
           <?php endforeach; ?>
@@ -121,8 +121,8 @@ function qr_manager_admin_page()
       <table class="widefat striped">
         <thead>
           <tr>
-            <th>Nom du QR Code</th>
-            <th>Nombre de flashs</th>
+            <th><?php esc_html_e('Nom du QR Code', 'qr-manager'); ?></th>
+            <th><?php esc_html_e('Nombre de flashs', 'qr-manager'); ?></th>
           </tr>
         </thead>
         <tbody>
@@ -232,9 +232,9 @@ function qr_manager_handle_form_submission($wpdb, $table_qr)
     $resultSvg = $builderSvg->build();
     $resultSvg->saveToFile($svg_path);
 
-    echo '<div class="notice notice-success"><p>QRcode PNG et SVG générés avec succès.</p></div>';
+    echo '<div class="notice notice-success"><p>' . esc_html__('QR Code PNG et SVG générés avec succès.', 'qr-manager') . '</p></div>';
   } catch (Throwable $e) {
-    echo '<div class="notice notice-error"><p>Erreur lors de la génération : ' . esc_html($e->getMessage()) . '</p></div>';
+    echo '<div class="notice notice-error"><p>' . esc_html__('Erreur lors de la génération :', 'qr-manager') . ' ' . esc_html($e->getMessage()) . '</p></div>';
   }
 }
 
