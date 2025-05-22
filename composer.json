@@ -1,0 +1,17 @@
+{
+    "name": "alexandrefoulc/qr-manager",
+    "autoload": {
+        "psr-4": {
+            "Alexandrefoulc\\QrManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexandre Foulc",
+            "email": "alexandre-foulc@orange.fr"
+        }
+    ],
+    "require": {
+        "endroid/qr-code": "^6.0"
+    }
+}

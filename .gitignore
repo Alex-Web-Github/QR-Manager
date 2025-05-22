@@ -1,0 +1,15 @@
+# QR codes générés automatiquement
+qrcodes/
+
+# Dépendances gérées via Composer
+/vendor/
+composer.lock
+
+# Fichiers temporaires
+.DS_Store
+
+# IDE / éditeurs
+.vscode/
+
+# Système
+.env
