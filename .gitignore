@@ -1,6 +1,9 @@
 # QR codes générés automatiquement
 qrcodes/
 
+# Traductions binaires compilées (souvent générés localement)
+#languages/*.mo
+
 # Dépendances gérées via Composer
 /vendor/
 composer.lock
