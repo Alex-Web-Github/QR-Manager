@@ -75,8 +75,8 @@ msgstr "Actions"
 msgid "Supprimer"
 msgstr "Delete"
 
-msgid "Voir QR Code"
-msgstr "View QR Code"
+msgid "Tester QR Code"
+msgstr "Test QR Code"
 
 msgid "Statistiques des Flashs"
 msgstr "Scan Statistics"

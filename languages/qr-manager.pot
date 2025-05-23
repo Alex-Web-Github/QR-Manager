@@ -94,7 +94,7 @@ msgid "Supprimer"
 msgstr ""
 
 #: includes/admin.php:111
-msgid "Voir QR Code"
+msgid "Tester le QR Code"
 msgstr ""
 
 #: includes/admin.php:120

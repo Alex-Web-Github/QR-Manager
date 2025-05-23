@@ -13,7 +13,7 @@ use Endroid\QrCode\RoundBlockSizeMode;
 use Endroid\QrCode\Writer\PngWriter;
 use Endroid\QrCode\Writer\SvgWriter;
 
-require_once QR_MANAGER_PLUGIN_PATH . '../vendor/autoload.php';
+require_once QR_MANAGER_PLUGIN_PATH . 'vendor/autoload.php';
 
 add_action('admin_menu', function () {
   add_menu_page(
@@ -108,7 +108,7 @@ function qr_manager_admin_page()
                   <input type="hidden" name="delete_qr_id" value="<?php echo intval($qr->id); ?>">
                   <?php submit_button(__('Supprimer', 'qr-manager'), 'delete', '', false); ?>
                 </form>
-                <a class="button" href="<?php echo esc_url(home_url('/qr/' . $qr->slug)); ?>" target="_blank"><?php esc_html_e('Voir QR Code', 'qr-manager'); ?></a>
+                <a class="button" href="<?php echo esc_url(home_url('/qr/' . $qr->slug)); ?>" target="_blank"><?php esc_html_e('Tester le QR Code', 'qr-manager'); ?></a>
               </td>
             </tr>
           <?php endforeach; ?>
