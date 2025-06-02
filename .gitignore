@@ -1,5 +1,5 @@
 # QR codes générés automatiquement
-qrcodes/
+/qrcodes/
 
 # Traductions binaires compilées (souvent générés localement)
 #languages/*.mo
@@ -7,6 +7,9 @@ qrcodes/
 # Dépendances gérées via Composer
 /vendor/
 composer.lock
+
+# Fichiers de Log
+*.log
 
 # Fichiers temporaires
 .DS_Store

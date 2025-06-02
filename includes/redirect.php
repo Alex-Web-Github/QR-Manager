@@ -94,6 +94,7 @@ function qr_manager_log_scan($wpdb, $table_hits, $qr_id)
   // Nettoyage des données sensibles
   $ip_address = sanitize_text_field($_SERVER['REMOTE_ADDR']);
   $user_agent = sanitize_textarea_field($_SERVER['HTTP_USER_AGENT'] ?? '');
+  // Enregistrer la page d'origine depuis laquelle l'utilisateur a scanné ou cliqué sur le QR code
   $referer = esc_url_raw($_SERVER['HTTP_REFERER'] ?? '');
 
   // Limiter la longueur des champs pour éviter les abus

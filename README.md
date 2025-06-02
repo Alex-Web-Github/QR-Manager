@@ -47,21 +47,6 @@
 
 ---
 
-## 📂 Structure du plugin
-
-QR-Manager/
-├── assets/               # CSS, JS, images
-├── includes/             # Logique métier (admin, redirection, tracking)
-├── languages/            # Fichiers de traduction (.pot, .po, .mo)
-├── qrcodes/              # Dossier pour les QR générés (non versionné)
-├── vendor/               # Librairies installées via Composer
-├── composer.json         # Déclaration des dépendances PHP
-├── composer.lock         # Verrouillage des versions
-├── qr-manager.php        # Fichier principal du plugin
-└── README.md             # Ce fichier
-
----
-
 ## 📦 Dépendances
 
 Ce plugin repose sur la bibliothèque [endroid/qr-code](https://github.com/endroid/qr-code) (installée via Composer).

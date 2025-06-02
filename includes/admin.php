@@ -205,7 +205,7 @@ function qr_manager_handle_form_submission($wpdb, $table_qr)
       size: 300,
       margin: 10,
       roundBlockSizeMode: RoundBlockSizeMode::Margin,
-      labelText: $label,
+      labelText: "Flashez-moi pour plus d'infos !",
       labelFont: new OpenSans(16),
       labelAlignment: LabelAlignment::Center
     );
@@ -224,7 +224,7 @@ function qr_manager_handle_form_submission($wpdb, $table_qr)
       size: 300,
       margin: 10,
       roundBlockSizeMode: RoundBlockSizeMode::Margin,
-      labelText: $label,
+      labelText: "Flashez-moi pour plus d'infos !",
       labelFont: new OpenSans(16),
       labelAlignment: LabelAlignment::Center
     );
