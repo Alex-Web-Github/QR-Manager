@@ -53,6 +53,28 @@ Ce plugin repose sur la bibliothèque [endroid/qr-code](https://github.com/endro
 
 ---
 
+## Générer les fichiers .mo à partir des .po
+
+Pour mettre à jour les fichiers de traduction binaires utilisés par WordPress, utilisez le script fourni :
+
+```zsh
+chmod +x generate-mo.sh
+./generate-mo.sh
+```
+
+Ce script va parcourir le dossier `languages/` et régénérer tous les fichiers `.mo` à partir des `.po`.
+
+**Prérequis :**
+
+- L’outil `msgfmt` doit être installé (inclus dans gettext, disponible via Homebrew sur macOS : `brew install gettext`).
+- Si besoin, ajoutez gettext à votre PATH :
+
+  ```zsh
+  export PATH="/opt/homebrew/opt/gettext/bin:$PATH"
+  ```
+
+---
+
 ## 📜 Licence
 
 Distribué sous la licence GPLv2 ou ultérieure.

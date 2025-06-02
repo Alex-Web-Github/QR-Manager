@@ -13,6 +13,7 @@ composer.lock
 
 # Fichiers temporaires
 .DS_Store
+Thumbs.db
 
 # IDE / éditeurs
 .vscode/

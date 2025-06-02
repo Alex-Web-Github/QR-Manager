@@ -108,7 +108,7 @@ function qr_manager_admin_page()
                   <input type="hidden" name="delete_qr_id" value="<?php echo intval($qr->id); ?>">
                   <?php submit_button(__('Supprimer', 'qr-manager'), 'delete', '', false); ?>
                 </form>
-                <a class="button" href="<?php echo esc_url(home_url('/qr/' . $qr->slug)); ?>" target="_blank"><?php esc_html_e('Tester le QR Code', 'qr-manager'); ?></a>
+                <a class="button" href="<?php echo esc_url(home_url('/qr/' . $qr->slug)); ?>" target="_blank"><?php esc_html_e('Tester la Redirection', 'qr-manager'); ?></a>
               </td>
             </tr>
           <?php endforeach; ?>
